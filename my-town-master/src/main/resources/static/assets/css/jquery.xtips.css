@@ -1,0 +1,34 @@
+.xctips {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 999;
+  background: #3498db;
+  color: #FFF;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  transition: background .2s linear;
+  -webkit-transition: background .2s linear;
+  font-family: "Microsoft YaHei", "å¾®è½¯ç»†é»‘", "å¾®è½¯é›…é»‘ Light" , "å¾®è½¯é›…é»‘", "Arial", "SimSun", "å®‹ä½“";
+}
+
+.xctips.info {
+  background: #3498db;
+}
+
+.xctips.success {
+  background: #2ecc71;
+}
+
+.xctips.error {
+  background: #ff9090;
+}
+
+.xctips.loading {
+  background: #F93;
+}
+

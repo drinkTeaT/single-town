@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tacbin.framework.data.mapper.IProductMapper">
+
+    <select id="selectPrdByParentCatIdUserId" resultType="com.tacbin.town.data.entity.Product">
+    SELECT * FROM `products` WHERE USERID = #{userId} AND CATEGORY_ID IN(SELECT ID FROM `category` WHERE PARENTID = #{parentCatId} )
+    </select>
+
+
+</mapper>
