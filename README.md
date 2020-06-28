@@ -23,5 +23,7 @@
 * maven操作，先对frame项目的pom文件进行install，再对frame-starter项目进行install，就可以启动town项目的Application了。
 
 在线体验单体版：http://119.23.42.141:8080/ 账号密码123456
+
 在线体检分布式版： http://129.204.189.111/ 账号密码45645
+
 可以添加群聊 1047384123 沟通
