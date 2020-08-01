@@ -22,8 +22,5 @@
 * 执行建表sql语句和预置数据脚本。
 * maven操作，先对frame项目的pom文件进行install，再对frame-starter项目进行install，就可以启动town项目的Application了。
 
-在线体验单体版：http://119.23.42.141:8080/ 账号密码123456
+在线体验分布式版： town.tacbin.club/ 账号密码45645
 
-在线体验分布式版： http://129.204.189.111/ 账号密码45645
-
-qq群，1047384123
